@@ -46,22 +46,3 @@ const blink = (btn: HTMLButtonElement) => {
   }, 200);
 }
 
-// const popSound = new Audio('/audio/pop.wav')
-// const balloon = new Image(200)
-// balloon.src = '/assets/blue-balloon/1.png'
-// balloonsContainer.appendChild(balloon)
-
-// let frame = 1
-// const colors = ['blue', 'green', 'orange', 'pink', 'purple', 'red', 'yellow']
-// const color = colors[Math.floor(Math.random() * colors.length)]
-// balloon.addEventListener('click', () => {
-//   popSound.play()
-//   const animate = setInterval(() => {
-//     if(frame == 6) {
-//       clearInterval(animate)
-//       balloonsContainer.removeChild(balloon)
-//     }
-//     balloon.src = `/assets/${color}-balloon/${frame++}.png`
-//   }, 50);
-// })
-
